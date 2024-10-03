@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/Second_back"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/RegisterTopHeading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:shadowColor="#09FF01"
+        android:shadowRadius="80"
+        android:textColor="#DC04A463"
+        android:fontFamily="@font/roboto_bold"
+        android:paddingBottom="30dp"
+        android:paddingTop="10dp"
+        android:text="Create Your Seller Account !!"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sellerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/InputField"
+        android:hint="Ente Your Name"
+        android:inputType="textPersonName"
+        android:maxLength="40"
+        android:padding="12dp"
+        android:textColor="@color/black" />
+
+
+    <EditText
+        android:id="@+id/seller_phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+
+        android:layout_marginBottom="16dp"
+        android:background="@color/InputField"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:padding="12dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/seller_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/InputField"
+        android:hint="Password"
+        android:inputType="textVisiblePassword"
+        android:padding="12dp"
+        android:textColor="@color/black" />
+
+
+    <!-- Phone Number Input Field -->
+
+    <!-- Password Input Field -->
+
+    <!-- Create Account Button -->
+    <Button
+        android:id="@+id/create_seller_AccountButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:text="Create Account" />
+
+</LinearLayout>

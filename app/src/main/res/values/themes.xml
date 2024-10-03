@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FreshCart" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green</item>
+    </style>
+
+    <style name="Theme.FreshCart" parent="Base.Theme.FreshCart" />
+
+
+    <style name="Theme.FreshCart.ActionBar" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorSecondary">@color/green</item>
+    </style>
+
+    <style name="FreshCart.ActionBar" parent="Base.Theme.FreshCart" />
+
+    <style name="Theme.FreshCart.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FreshCart.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FreshCart.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
